@@ -1,0 +1,7 @@
+＃train和Val的数据集（图像目录或* .txt与图像路径文件）
+train： ../images/region/
+VAL： ../images/regiontest/
+＃class number
+nc： 1
+＃类名称
+名称： [“0”]
