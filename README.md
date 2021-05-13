@@ -1,0 +1,11 @@
+# yolov5addSE
+在yolov5中添加SE模块
+在yaml文件的配置文件中：
+nc：代表class数目，即目标检测一共有几个类别
+depth_multiple：控制模型重复个数
+width_multiple：
+anchors：每一行对应一个detect，注意和head最后一行第一个参数相匹配
+backbone：计数从0开始
+注意在backbone中的最后一行加入SELayer
+这个类在common.py文件中添加进来
+在yolo.py文件也进行相应的更改
